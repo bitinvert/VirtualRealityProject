@@ -28,12 +28,12 @@ Als Erweiterung, wenn wir feststellen, dass die Stufe 1 zu wenig Arbeit für die
 hierfür auch aufeinander gestapelt werden müssten.
 
 ## Weitere Ideen
-- Menüsteuerung
-  - Timer/Stoppuhrfunktion:
+- *Menüsteuerung*
+  - *Timer/Stoppuhrfunktion:*
   Der Nutzer soll die Möglichkeit haben, die Zeit zu messen.
-  - Resetfunktion:
+  - *Resetfunktion:*
   Im Falle von Problemen/Fehlern, soll der Nutzer alles in den Ausgangszustand
   zurück versetzen
-  - Prüfenfunktion:
+  - *Prüfenfunktion:*
   Der Nutzer soll selbst angeben, ob er fertig und die Form prüfen möchte, um
   danach ggf. die nächste Grundfläche angezeigt zu bekommen.
