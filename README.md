@@ -10,7 +10,7 @@ Diese findet man unter:
 ## Das Projekt
 - Grundidee: Ubongo, Tanagram
 
-## [ ] Stufe 1
+## -[ ] Stufe 1
 Es wird eine Grundfläche aus Quadraten vorgegeben, sowie mehrere verschiedene Grundformen.
 Der Nutzer gibt die Grundformen auf, bewegt diese durch den Raum und platziert diese
 so auf der Grundfläche, dass diese komplett ausgefüllt wird.
