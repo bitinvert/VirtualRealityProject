@@ -37,3 +37,16 @@ hierfür auch aufeinander gestapelt werden müssten.
   - **Prüfenfunktion:**
   Der Nutzer soll selbst angeben, ob er fertig und die Form prüfen möchte, um
   danach ggf. die nächste Grundfläche angezeigt zu bekommen.
+
+## To Dos
+- [x] Pinching Hands
+  - [ ] Vielleicht einen anderen Weg?
+- [x] Spielfeld Prefabs
+- [x] GameObjects von der Decke hängen
+- [ ] Grid-Snap
+- [ ] Neue GameObjects mit Blender machen
+- [ ] Texturen
+- [ ] UI
+- [ ] Prüfenfunktion
+- [ ] Timerfunktion
+- [ ] Resetfunktion
