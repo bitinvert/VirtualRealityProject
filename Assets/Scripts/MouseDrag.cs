@@ -11,6 +11,5 @@ public class MouseDrag : MonoBehaviour {
 				new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance_to_screen ));
 
 			transform.position = new Vector3( pos_move.x, transform.position.y, pos_move.z );
-
 	}
 }
