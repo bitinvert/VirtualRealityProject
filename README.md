@@ -44,7 +44,7 @@ hierfür auch aufeinander gestapelt werden müssten.
 - [x] Spielfeld Prefabs
 - [x] GameObjects von der Decke hängen
 - [ ] Grid-Snap
-- [ ] Neue GameObjects mit Blender machen
+- [x] Neue GameObjects mit Blender machen (nur noch nicht commitet)
 - [ ] Texturen
 - [ ] UI
 - [ ] Prüfenfunktion
