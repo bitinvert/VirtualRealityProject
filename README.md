@@ -43,7 +43,7 @@ hierfür auch aufeinander gestapelt werden müssten.
   - [ ] Vielleicht einen anderen Weg?
 - [x] Spielfeld Prefabs
 - [x] GameObjects von der Decke hängen
-- [ ] Grid-Snap
+- [x] Grid-Snap
 - [x] Neue GameObjects mit Blender machen (nur noch nicht commitet)
 - [ ] Texturen
 - [ ] UI
