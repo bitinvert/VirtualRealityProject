@@ -14,7 +14,7 @@ Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_
 Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.048 seconds
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
@@ -23,4 +23,4 @@ desktop: 1366x768 60Hz; virtual: 2646x800 at 0,0
 Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\System.Core.dll (this message is harmless)
 Shader 'Legacy Shaders/Self-Illumin/Diffuse': fallback shader 'Legacy Shaders/Self-Illumin/VertexLit' not found
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: c78 -> priority: 1 
+  Thread -> id: 37c -> priority: 1 

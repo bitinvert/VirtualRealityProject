@@ -190,6 +190,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 22
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -235,6 +239,10 @@ Prefab:
     - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
       propertyPath: m_Name
       value: PlayingTile 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
@@ -367,6 +375,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -416,6 +428,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -468,6 +484,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 19
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -513,6 +533,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -564,6 +588,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -610,9 +638,52 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 10
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &215339602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 215339604}
+  - 114: {fileID: 215339603}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &215339603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 215339602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0669a7e4b2c0dae4c804f2a6872cdf99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &215339604
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 215339602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 100, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
 --- !u!1 &216287377
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +911,10 @@ Prefab:
       propertyPath: m_Name
       value: PlayingTile 2
       objectReference: {fileID: 0}
+    - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
   m_IsPrefabParent: 0
@@ -893,6 +968,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -1059,6 +1138,10 @@ Prefab:
       propertyPath: m_Name
       value: PlayingTile 4
       objectReference: {fileID: 0}
+    - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
   m_IsPrefabParent: 0
@@ -1104,6 +1187,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -1217,6 +1304,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 8
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -1267,6 +1358,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -1277,17 +1372,21 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 437432, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.1190443
+      value: -4.0999999
       objectReference: {fileID: 0}
     - target: {fileID: 437432, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.93521142
+      value: 1.89999998
       objectReference: {fileID: 0}
     - target: {fileID: 437432, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.83640623
+      value: 30.5
       objectReference: {fileID: 0}
     - target: {fileID: 437432, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1315,6 +1414,58 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 171006, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: rotationFiltering
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: positionFiltering
+      value: .600000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: minConfidence
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[1].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseStrengthCurve.m_Curve.Array.data[0].time
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1366,6 +1517,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -1429,7 +1584,6 @@ GameObject:
   - 33: {fileID: 689610177}
   - 64: {fileID: 689610176}
   - 23: {fileID: 689610175}
-  - 54: {fileID: 689610178}
   m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
@@ -1492,21 +1646,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 689610173}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &689610178
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 689610173}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!4 &715399417 stripped
 Transform:
   m_PrefabParentObject: {fileID: 487992, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -1553,6 +1692,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -1706,6 +1849,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 24
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -1751,6 +1898,10 @@ Prefab:
     - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
       propertyPath: m_Name
       value: PlayingTile 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
@@ -1798,6 +1949,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 20
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -1819,6 +1974,7 @@ GameObject:
   - 54: {fileID: 895281064}
   - 114: {fileID: 895281062}
   - 114: {fileID: 895281063}
+  - 114: {fileID: 895281069}
   m_Layer: 0
   m_Name: Test Cube
   m_TagString: Untagged
@@ -1869,7 +2025,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!23 &895281065
 MeshRenderer:
@@ -1926,6 +2082,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &895281069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 895281061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a6ff767880d9942841ddb301e8a035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &901188101 stripped
 Transform:
   m_PrefabParentObject: {fileID: 402682, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
@@ -1977,6 +2144,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 14
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -2022,6 +2193,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -2096,7 +2271,7 @@ GameObject:
   - 4: {fileID: 1006063252}
   m_Layer: 0
   m_Name: Gamefield
-  m_TagString: Untagged
+  m_TagString: grid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2389,6 +2564,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 2
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -2439,6 +2618,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 3
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -2480,6 +2663,10 @@ Prefab:
     - target: {fileID: 402682, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
       propertyPath: m_RootOrder
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 129846, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 194c28efb655bf84ca38c66fec8c3024, type: 2}
@@ -2595,6 +2782,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 9
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -2649,6 +2840,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -2702,6 +2897,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
@@ -3574,6 +3773,10 @@ Prefab:
       propertyPath: m_Name
       value: FieldTile 5
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -3625,6 +3828,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
   m_IsPrefabParent: 0
@@ -3674,6 +3881,10 @@ Prefab:
     - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
       propertyPath: m_Name
       value: FieldTile 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 158000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ce8af8a4eb9a344b5bf9b2fbc29255, type: 2}
