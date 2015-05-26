@@ -40,12 +40,12 @@ hierfür auch aufeinander gestapelt werden müssten.
 
 ## To Dos
 - [x] Pinching Hands
-  - [ ] Vielleicht einen anderen Weg?
+  - [x] Vielleicht einen anderen Weg?(NEIN!!!)
 - [x] Spielfeld Prefabs
 - [x] GameObjects von der Decke hängen
 - [x] Grid-Snap
-- [x] Neue GameObjects mit Blender machen (nur noch nicht commitet)
-- [ ] Texturen
+- [x] Neue GameObjects mit Blender machen
+- [x] Texturen(Boden fehlt)
 - [ ] UI
 - [ ] Prüfenfunktion
 - [ ] Timerfunktion
