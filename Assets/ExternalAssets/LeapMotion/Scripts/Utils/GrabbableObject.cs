@@ -69,9 +69,12 @@ public class GrabbableObject : MonoBehaviour {
 				
 			}
 		}
-		//Anm.: Hier WinkelSnap noch machen!!! naechste zeile nur ersatz
-		this.transform.eulerAngles = new Vector3(0f, 0f, 0f);
-		this.transform.position = gs.SnapToGrid(this.transform.position);
+
+		MeshRenderer m = this.GetComponent<MeshRenderer>();
+		Debug.Log(m.bounds.size.x * transform.localScale.x);
+
+		this.transform.eulerAngles = gs.SnapRotation(this.transform.eulerAngles);
+		this.transform.position = gs.SnapToGrid(this.transform.position, this.transform.eulerAngles);
 		this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 	}
 	
