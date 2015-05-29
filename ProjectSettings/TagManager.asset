@@ -7,6 +7,8 @@ TagManager:
   - grid
   - TriCorner
   - QuadCorner
+  - QuadTee
+  - Duo
   layers:
   - Default
   - TransparentFX

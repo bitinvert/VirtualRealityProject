@@ -43,8 +43,29 @@ public class GridSnap : MonoBehaviour {
 		if(this.tag.Equals("QuadCorner")){
 			if((x == 180 && z == 0) || (x == 0 && z == 180)) {
 				return 3.01f;
+			} else if((x == 0 && z == 270) || (x == 180 && z == 90)) {
+				return 2.01f;
 			}
+		}
 
+		if(this.tag.Equals("QuadTee")) {
+			if((x == 180 && z == 0) || (x == 0 && z ==  180)) {
+				return 3.01f;
+			} else if ((x == 180 && z == 270) || (x == 0 && z == 90)) {
+				return 2.01f;
+			}
+		}
+
+		if(this.tag.Equals("Duo")) {
+			if((x == 0 && z == 180) || (x == 180 && z == 0)) {
+				return 2.01f;
+			}
+		}
+
+		if(this.tag.Equals("TriCorner")) {
+			if((x == 0 && (z == 180 || z == 270)) || (x == 180 && (z == 0 || z == 90))) {
+				return 2.01f;
+			}
 		}
 
 		return 1.01f;
