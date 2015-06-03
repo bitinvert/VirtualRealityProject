@@ -4,10 +4,12 @@ using System.Collections;
 public class GridSnap : MonoBehaviour {
 
 	private GameObject[] tiles; 
+	private ObjectInformation obj;
 		
 	// Use this for initialization
 	void Start () {
 		tiles = GameObject.FindGameObjectsWithTag("grid");
+		obj = GetComponent<ObjectInformation>();
 	}
 		
 	// Setzt die "Bounciness" der Würfel auf 0 beim Fallenlassen
@@ -16,19 +18,33 @@ public class GridSnap : MonoBehaviour {
 	}
 	
 	public Vector3 SnapToGrid(Vector3 position, Vector3 rotation) {
-		Vector3 result = new Vector3(0f,1.01f,0f);
+		Vector3 result = obj.globalPos;//new Vector3(0f,1.01f,0f);
 		RaycastHit hitInfo = new RaycastHit();
 		
 		if(Physics.Raycast (this.transform.position , -Vector3.up, out hitInfo)){
 			foreach(GameObject tile in tiles){
+
+				/**
+				 * Wenn das Spielobjekt über dem Spielfeld (tile) losgelassen wird,
+				 * raste dieses an der Position des spezifischen Tiles ein.
+				 * Ansonsten setze das Spielobjekt an seine Ursprungsposition zurück
+				 * und Verbinde wieder den Joint.
+				 **/
 				if(tile.name == hitInfo.collider.name){
 					result.x = tile.transform.position.x;
 					result.z = tile.transform.position.z;
 
 					result.y = setY(rotation);
+	
+				} else {
+					
+					//result = obj.globalPos;
+					/*FixedJoint joint = this.gameObject.AddComponent<FixedJoint>();
+					joint.connectedBody = obj.joint;
+					joint.breakForce = 5000;*/
 				}
 			}
-		}
+		} 
 		return result;
 	}
 
