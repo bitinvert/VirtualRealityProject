@@ -41,6 +41,7 @@ public class LevelController : MonoBehaviour {
 		    (Mathf.RoundToInt (tri_Rot.z) == 0 || Mathf.RoundToInt (tri_Rot.z) == 360)) {
 
 			// Anm.: tri_Pos.z muss eigentlich ~ -1.5 sein, könnte hier also n Problem sein mit der -1, ggf auf -2 runden?
+			// oder: tri_Pos.z < -2 && tri_Pos.z > -1 ohne RoundToInt?
 			if(Mathf.RoundToInt (tri_Pos.x) == 2 && Mathf.RoundToInt (tri_Pos.y) == 1 && Mathf.RoundToInt (tri_Pos.z) == -1) {
 				tri_Correct = true;
 			}
