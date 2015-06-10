@@ -9,6 +9,8 @@ TagManager:
   - QuadCorner
   - QuadTee
   - Duo
+  - Fire
+  - WinText
   layers:
   - Default
   - TransparentFX
