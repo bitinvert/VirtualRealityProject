@@ -3,17 +3,36 @@ using System.Collections;
 
 public class LeapMotionMenu : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	LevelController lc;
+	bool timerActive;
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void Start() {
+		lc = this.GetComponent<LevelController>();
+		timerActive = false;
 	}
 
 	void OnTriggerEnter(Collider other) {
-		Destroy(other.gameObject);
+		if(other.name.Equals("CheckButton")) {
+			lc.Check();
+		}
+		if(other.name.Equals("TimerButton")) {
+			if(timerActive == true) {
+				
+				lc.TimerStop();
+				timerActive = false;
+				
+			} else {
+				
+				lc.TimerStart();
+				timerActive = true;
+				
+			}
+		}
+		if(other.name.Equals("ResetButton")) {
+			lc.ResetScene();
+		}
+		if(other.name.Equals("ExitButton")) {
+			Application.Quit();
+		}
 	}
 }
