@@ -1,159 +1,40 @@
-Initialize engine version: 5.1.0f3 (ec70b008569d)
+Initialize engine version: 5.0.2f1 (0b02744d4013)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
-    Vendor:   Intel
-    VRAM:     128 MB
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
-Loading C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.064 seconds
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.092 seconds
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1366x768 60Hz; virtual: 2646x800 at 0,0
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
 <RI> Initialized touch support.
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Brendan\Documents\GitHub\VirtualRealityProject\test_Data\Managed\System.dll (this message is harmless)
-Shader 'Legacy Shaders/Self-Illumin/Diffuse': fallback shader 'Legacy Shaders/Self-Illumin/VertexLit' not found
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\System.dll (this message is harmless)
+Shader 'Legacy Shaders/Self-Illumin/Bumped Specular': fallback shader 'Legacy Shaders/Self-Illumin/Specular' not found
 (4.1, 2.9, -1.4)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 (-1.0, 2.8, 1.8)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 (-4.3, 3.8, -1.5)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1ab8 -> priority: 1 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.874835 ms
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1083.
-Total: 0.546970 ms (FindLiveObjects: 0.094511 ms CreateObjectMapping: 0.059871 ms MarkObjects: 0.374197 ms  DeleteObjects: 0.017961 ms)
-
-(4.1, 2.9, -1.4)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(-1.0, 2.8, 1.8)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(-4.3, 3.8, -1.5)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-3.727993
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2.617199
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(90.0, 0.0, 0.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2.41396
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(90.0, 0.0, 0.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2.336367
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(0.0, 270.0, 180.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2.139124
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2.677786
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2.398604
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(90.0, 90.0, 0.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-1.756949
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(270.0, 180.0, 0.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-1.7681
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(270.0, 270.0, 0.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-1.550921
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-(270.0, 270.0, 0.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-1TriPosition: (-0.1, 1.0, 0.6)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-1QuadC_Pos: (-0.1, 1.0, -2.4)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-1QuadT_Pos: (-1.1, 1.0, -3.4)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2TriPosition: (-0.1, 1.0, 0.6)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2QuadC_Pos: (-0.1, 1.0, -2.4)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-2QuadT_Pos: (-1.1, 1.0, -3.4)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at InputController.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
+  Thread -> id: 2d98 -> priority: 1 
