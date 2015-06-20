@@ -2,7 +2,11 @@
 using System.Collections;
 
 public class AdjustableCameraHeight : MonoBehaviour {
-	
+
+	public float min;
+	public float max;
+	public float step;
+
 	/**
 	 * Makes the Camera's height adjustable per PageUp
 	 * or PageDown.
@@ -10,13 +14,13 @@ public class AdjustableCameraHeight : MonoBehaviour {
 	void Update () {
 		Vector3 pos = this.gameObject.transform.position;
 
-		if (Input.GetKey (KeyCode.PageUp) && (pos.y < 8f)) 
+		if (Input.GetKey (KeyCode.PageUp) && (pos.y < max)) 
 		{
-			pos.y += 0.1f;
+			pos.y += step;
 
-		} else if (Input.GetKey (KeyCode.PageDown) && (pos.y > 5f)) 
+		} else if (Input.GetKey (KeyCode.PageDown) && (pos.y > min)) 
 		{
-			pos.y -= 0.1f;
+			pos.y -= step;
 		}
 
 		this.gameObject.transform.position = pos;

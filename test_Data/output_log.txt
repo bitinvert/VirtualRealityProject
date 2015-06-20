@@ -20,7 +20,7 @@ Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_D
 Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.057 seconds
+- Completed reload, in  0.055 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
@@ -40,4 +40,22 @@ Platform assembly: E:\Eigene Dateien\Studium\GitHub\VirtualRealityProject\test_D
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1ae0 -> priority: 1 
+  Thread -> id: 35e4 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.394389 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1079.
+Total: 0.555837 ms (FindLiveObjects: 0.106572 ms CreateObjectMapping: 0.086528 ms MarkObjects: 0.341715 ms  DeleteObjects: 0.015154 ms)
+
+(4.1, 2.9, -1.4)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-1.0, 2.8, 1.8)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-4.3, 3.8, -1.5)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+

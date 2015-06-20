@@ -12,6 +12,8 @@ public class LevelController : MonoBehaviour {
 
 	public GameObject winText;
 	public Text timerText;
+	public TextMesh timerTextMesh;
+	public bool OculusRift = false;
 
 	void Start() {
 		triCorner = GameObject.FindGameObjectWithTag("TriCorner");
@@ -46,7 +48,11 @@ public class LevelController : MonoBehaviour {
 	 */
 	IEnumerator UpdateTimer() {
 		while(true) {
-			timerText.text = "Timer: " + timerTime.ToString();
+			if(OculusRift == false) {
+				timerText.text = "Timer: " + timerTime.ToString();
+			} else {
+				timerTextMesh.text = "Timer: "  + timerTime.ToString();
+			}
 			timerTime = timerTime + Time.deltaTime;
 			yield return null;
 		}
