@@ -47,8 +47,10 @@ public class LevelController : MonoBehaviour {
 	 * Füge jedes Frame die vergangene Zeit zu dem Timer hinzu.
 	 */
 	IEnumerator UpdateTimer() {
-		while(true) {
-			if(OculusRift == false) {
+		while(true)
+		{
+			if (OculusRift == false)
+			{
 				timerText.text = "Timer: " + timerTime.ToString();
 			} else {
 				timerTextMesh.text = "Timer: "  + timerTime.ToString();
@@ -71,7 +73,8 @@ public class LevelController : MonoBehaviour {
 	 * Zeige entsprechend eine Meldung für den Spieler an!
 	 **/
 	public void Check() {
-		if (CheckFirstOption () || CheckSecondOption ()) {
+		if (CheckFirstOption () || CheckSecondOption ())
+		{
 			firework.GetComponent<ParticleSystem>().Play();
 			winText.SetActive(true);
 		}
@@ -79,7 +82,6 @@ public class LevelController : MonoBehaviour {
 
 	bool InIntervall(float z, float num) {
 		float delta = 0.4f;
-		
 		return ((z > (num - delta)) && (z < (num + delta)));
 	}
 
@@ -97,9 +99,11 @@ public class LevelController : MonoBehaviour {
 
 		if (Mathf.RoundToInt (tri_Rot.x) == 270 && 
 		    Mathf.RoundToInt (tri_Rot.y) == 180 && 
-		    (Mathf.RoundToInt (tri_Rot.z) == 0 || Mathf.RoundToInt (tri_Rot.z) == 360)) {
+		    (Mathf.RoundToInt (tri_Rot.z) == 0 || Mathf.RoundToInt (tri_Rot.z) == 360))
+		{
 
-			if(Mathf.RoundToInt (tri_Pos.x) == 2 && Mathf.RoundToInt (tri_Pos.y) == 1 && InIntervall(tri_Pos.z, -1.5f)) {
+			if (Mathf.RoundToInt (tri_Pos.x) == 2 && Mathf.RoundToInt (tri_Pos.y) == 1 && InIntervall(tri_Pos.z, -1.5f))
+			{
 				tri_Correct = true;
 			}
 
@@ -107,7 +111,8 @@ public class LevelController : MonoBehaviour {
 		           Mathf.RoundToInt (tri_Rot.y) == 90 && 
 		           (Mathf.RoundToInt (tri_Rot.z) == 0 || Mathf.RoundToInt (tri_Rot.z) == 360)) { 
 
-			if(Mathf.RoundToInt (tri_Pos.x) == 1 && Mathf.RoundToInt (tri_Pos.y) == 1 &&  InIntervall(tri_Pos.z, -0.5f)) {
+			if (Mathf.RoundToInt (tri_Pos.x) == 1 && Mathf.RoundToInt (tri_Pos.y) == 1 &&  InIntervall(tri_Pos.z, -0.5f))
+			{
 				tri_Correct = true;
 			}
 		}
@@ -120,9 +125,11 @@ public class LevelController : MonoBehaviour {
 
 		if (Mathf.RoundToInt (quadC_Rot.x) == 90 && 
 			(Mathf.RoundToInt (quadC_Rot.y) == 0 || Mathf.RoundToInt (quadC_Rot.y) == 360) && 
-			(Mathf.RoundToInt (quadC_Rot.z) == 0 || Mathf.RoundToInt (quadC_Rot.z) == 360)) {
+			(Mathf.RoundToInt (quadC_Rot.z) == 0 || Mathf.RoundToInt (quadC_Rot.z) == 360))
+		{
 
-			if (Mathf.RoundToInt (quadC_Pos.x) == -1 && Mathf.RoundToInt (quadC_Pos.y) == 1 && InIntervall(quadC_Pos.z, -1.5f)) {
+			if (Mathf.RoundToInt (quadC_Pos.x) == -1 && Mathf.RoundToInt (quadC_Pos.y) == 1 && InIntervall(quadC_Pos.z, -1.5f))
+			{
 				quadC_Correct = true;
 			}
 		}
@@ -135,17 +142,21 @@ public class LevelController : MonoBehaviour {
 
 		if (Mathf.RoundToInt (quadT_Rot.x) == 270 &&
 			Mathf.RoundToInt (quadT_Rot.y) == 270 &&
-			(Mathf.RoundToInt (quadT_Rot.z) == 0 || Mathf.RoundToInt (quadT_Rot.z) == 360)) {
+			(Mathf.RoundToInt (quadT_Rot.z) == 0 || Mathf.RoundToInt (quadT_Rot.z) == 360))
+		{
 
-			if(Mathf.RoundToInt (quadT_Pos.x) == -2 && Mathf.RoundToInt (quadT_Pos.y) == 1 && InIntervall(quadT_Pos.z, -2.5f)) {
+			if (Mathf.RoundToInt (quadT_Pos.x) == -2 && Mathf.RoundToInt (quadT_Pos.y) == 1 && InIntervall(quadT_Pos.z, -2.5f))
+			{
 				quadT_Correct = true;
 			}
 
 		} else if (Mathf.RoundToInt (quadT_Rot.x) == 90 && 
 		           Mathf.RoundToInt (quadT_Rot.y) == 270 && 
-		           (Mathf.RoundToInt (quadT_Rot.z) == 0 || Mathf.RoundToInt (quadT_Rot.z) == 360)) {
+		           (Mathf.RoundToInt (quadT_Rot.z) == 0 || Mathf.RoundToInt (quadT_Rot.z) == 360))
+		{
 		
-			if(Mathf.RoundToInt (quadT_Pos.x) == 0 && Mathf.RoundToInt (quadT_Pos.y) == 1 && InIntervall(quadT_Pos.z, -2.5f)) {
+			if ( (Mathf.RoundToInt (quadT_Pos.x) == 0) && (Mathf.RoundToInt (quadT_Pos.y) == 1) && (InIntervall(quadT_Pos.z, -2.5f)) )
+			{
 				quadT_Correct = true;
 			}
 		}
