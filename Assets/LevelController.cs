@@ -24,6 +24,7 @@ public class LevelController : MonoBehaviour {
 		firework.GetComponent<ParticleSystem>().Stop();
 	}
 
+
 	/**
 	 * Lade die Szene neu, im Falle von Fehlern etc.
 	 */
@@ -31,8 +32,10 @@ public class LevelController : MonoBehaviour {
 		Application.LoadLevel(Application.loadedLevelName);
 	}
 
+
 	// Die aktuelle Timerzeit
 	private float timerTime;
+
 
 	/**
 	 * Starte den Timer und setze ihn zu Beginn auf 0.
@@ -43,11 +46,12 @@ public class LevelController : MonoBehaviour {
 		StartCoroutine("UpdateTimer");
 	}
 
+
 	/**
 	 * Füge jedes Frame die vergangene Zeit zu dem Timer hinzu.
 	 */
 	IEnumerator UpdateTimer() {
-		while(true)
+		while (true)
 		{
 			if (OculusRift == false)
 			{
@@ -61,12 +65,14 @@ public class LevelController : MonoBehaviour {
 		yield return null;
 	}
 
+
 	/**
 	 * Halte den Timer an.
 	 */ 
 	public void TimerStop() {
 		StopCoroutine("UpdateTimer");
 	}
+
 
 	/**
 	 * Prüfe die beiden möglichen Anordnungen für Spielobjekte für das Level.
@@ -80,10 +86,12 @@ public class LevelController : MonoBehaviour {
 		}
 	}
 
+
 	bool InIntervall(float z, float num) {
 		float delta = 0.4f;
 		return ((z > (num - delta)) && (z < (num + delta)));
 	}
+
 
 	// Anm.: Bei einem Winkel == 0° muss auch auf 360° geprüft werden, wegen Rundungsproblemen!
 	// Anm2.: Die z-Koordinate wird hier auf einen Bereich geprüft, da Unity Rundungsprobleme verursacht!
