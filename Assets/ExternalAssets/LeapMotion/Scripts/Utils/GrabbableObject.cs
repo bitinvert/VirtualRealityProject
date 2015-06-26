@@ -22,6 +22,8 @@ public class GrabbableObject : MonoBehaviour {
 	public Rigidbody breakableJoint;
 	public float breakForce;
 	public float breakTorque;
+
+	public float maxSnapHeight = 2.3f;
 	
 	protected bool grabbed_ = false;
 	protected bool hovered_ = false;
@@ -73,8 +75,15 @@ public class GrabbableObject : MonoBehaviour {
 		MeshRenderer m = this.GetComponent<MeshRenderer>();
 		Debug.Log(m.bounds.size.x * transform.localScale.x);
 
-		this.transform.eulerAngles = gs.SnapRotation(this.transform.eulerAngles);
-		this.transform.position = gs.SnapToGrid(this.transform.position, this.transform.eulerAngles);
+		/*
+		 * Grid-Snap soll erst wirken, wenn die Form schon relativ nah am Boden ist.
+		 * Ansonsten Bewegung einfrieren
+		 * */
+		if (transform.position.y < maxSnapHeight)
+		{
+			this.transform.eulerAngles = gs.SnapRotation(this.transform.eulerAngles);
+			this.transform.position = gs.SnapToGrid(this.transform.position, this.transform.eulerAngles);
+		}
 		this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 	}
 	

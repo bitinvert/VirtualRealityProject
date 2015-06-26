@@ -1810,6 +1810,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11495114, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
+      propertyPath: releaseTriggerDistance
+      value: .800000012
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb983574e2b28b94b87657a5b187fab7, type: 2}
   m_IsPrefabParent: 0
@@ -3920,6 +3924,10 @@ Prefab:
     - target: {fileID: 131298, guid: 8c0695962c3194c438ad473398cd5263, type: 2}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 131298, guid: 8c0695962c3194c438ad473398cd5263, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6562120, guid: 8c0695962c3194c438ad473398cd5263, type: 2}
